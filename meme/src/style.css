@@ -64,7 +64,32 @@ button:hover{
     background-color: hsl(284, 58%, 42%);;
 }
 
+.meme-image{
+    width: 100%;
+    /* margin: auto; */
+    background-size: contain;
+    height: auto;
+}
+
 .meme{
-    max-width: 100%;
-    margin: auto;
+    position: relative;
+}
+
+.meme-text{
+    color: white;
+    font-size: 2rem;
+    font-variant: small-caps;
+    
+}
+
+.top{
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 5rem;
+    left: 10rem;
 }
